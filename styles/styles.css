@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    background-image: url("../images/descargar.png");
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #2f1793;
+}
+
+.navbar-brand{
+
+}
+
+.aplogo {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 20px 20px;
+}
+
+.navbar-toggler{
+    margin: 0 10px;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 25px;
+    padding: 7px 25px;
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-weight: 400px;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.boton.login.nav{
+    background: rgb(136, 241, 122);
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    margin: 0;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.boton.login.bar{
+    background: rgb(136, 241, 122);
+}
+
+.social-img{
+    width: 40px;
+}
+
+.social-button{
+    display: inline-block;
+    margin: 0 13px 0 0;
+    transition: 0.5s;
+}
+
+.social-button:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    margin-top: 100px;
+    transition: 0.5s;
+
+}
+
+.biografia{
+    background: linear-gradient(135deg, rgba(255,255,255, 0.1), rgba(255,255,255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.cont-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+.biografia-img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.columna-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    margin: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.container:hover{
+    box-shadow: 1px 1px 35px 9px rgba(108,21,217,0.75);
+-webkit-box-shadow: 1px 1px 35px 9px rgba(108,21,217,0.75);
+-moz-box-shadow: 1px 1px 35px 9px rgba(108,21,217,0.75);
+}
+
+@media (max-width: 991px){
+    .nav-item.remove{
+        display: none;
+    }
+
+    .boton.login.bar{
+        display: none;
+    }
+
+    .boton.login.nav{
+        display: inline-block;
+    }
+
+    .social-button{
+        margin: 0px 25px;
+    }
+}
+
+@media (max-width: 575px){
+    .container.biografia{
+        max-width: 350px;
+    }
+}
