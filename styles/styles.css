@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(44,200,195);
+    background: linear-gradient(153deg, rgba(44,200,195,1) 0%, rgba(33,83,196,1) 33%, rgba(130,75,230,1) 69%, rgba(225,68,246,1) 100%);
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(132, 0, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 55px 55px;
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 1px 6px 14px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 6px 14px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 14px 1px rgba(0,0,0,0.75);
+}
+
+.navbar-toggler{
+    background-color:white;
+    margin: 0 20px;
+}
+
+.aplogo {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+        filter: drop-shadow(5px 5px 5px #000000);
+}
+
+.nav-item {
+    margin: 20px 20px;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    border-radius: 25px;
+    padding: 7px 25px;
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-weight: 400px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -moz-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.boton.login.nav{
+    background: rgb(136, 241, 122);
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    margin: 0;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.boton.login.bar{
+    background: rgb(136, 241, 122);
+}
+
+.social-img{
+    width: 40px;
+}
+
+.social-button{
+    border-radius: 25px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    transition: 0.5s;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -moz-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.social-button:hover{
+    transform: scale(1.1);
+}
+
+.imgbio{
+    width: 90%;
+    margin: 80px 0px 0 0px;
+    border-radius: 20px;
+}
+
+.container.biografia{
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.container.biografia.first{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+.biografia{
+    background: linear-gradient(135deg, rgba(255,255,255, 0.3), rgba(255,255,255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -moz-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.row.justify-content-center.biografia{
+    padding: 25px 0;
+}
+
+.cont-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+.biografia-img{
+    width: 97%;
+    border-radius: 50%;
+}
+
+.columna-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    margin: 15px;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.biografia:hover{
+    box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+}
+
+.experience{
+    color: white;
+    background: linear-gradient(135deg, rgba(255,255,255, 0.3), rgba(255,255,255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -moz-box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    max-width: 80%;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+}
+
+.experience:hover{
+    box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+}
+
+.experienceimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.skillscol{
+    color: black;
+    background-color: #e3edf7;
+    border-radius: 15px;
+    width: 75%;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.skillscol:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+}
+
+.skillslogo{
+    width: 70%;
+}
+
+.progresscircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.percent{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    transform: rotate(270deg);
+}
+
+svg{
+    position: relative;
+    width: 170px;
+    height: 170px;
+}
+
+circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 15;
+    stroke: rgb(136, 136, 136);
+    transform: translate(15px, 15px);
+}
+
+circle:nth-child(2){
+    stroke: var(--crl);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440* var(--num) / 100))
+}
+
+.number{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: rotate(-270deg);
+}
+
+@media (max-width: 991px){
+    .nav-item.remove{
+        display: none;
+    }
+
+    .boton.login.bar{
+        display: none;
+    }
+
+    .boton.login.nav{
+        display: inline-block;
+    }
+
+    .social-button{
+        margin: 0px 25px;
+    }
+    .columna-imagen{
+        margin-top: 10px;
+    }
+    .imgbio{
+        margin: 120px 0px 0 0px;
+    }
+    .container.biografia.first{
+        margin-top: 15px;
+    }
+    .experienceimg{
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    .cont-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575px){
+    .container.biografia{
+        max-width: 350px;
+    }
+    .experienceimg{
+        width: 200px;
+    }
+}
+
+@media (max-width: 340px){
+    .nav-item.remove{
+        display: inline-block;
+    }
+
+    .boton.login.bar{
+        display: inline-block;
+    }
+
+    .boton.login.nav{
+        display: none;
+    }
+    .skillscol{
+        width: 170px;
+    }
+}
