@@ -172,6 +172,11 @@ p{
 -moz-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
 }
 
+h3{
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+}
+
 .experience{
     color: white;
     background: linear-gradient(135deg, rgba(255,255,255, 0.3), rgba(255,255,255, 0));
@@ -195,6 +200,10 @@ p{
 .experienceimg{
     width: 100%;
     border-radius: 10px;
+}
+
+.skillsrow{
+    margin-top: 30px;
 }
 
 .skillscol{
@@ -261,6 +270,24 @@ circle:nth-child(2){
     align-items: center;
     flex-direction: column;
     transform: rotate(-270deg);
+}
+
+.ProjectLink{
+    color: black;
+    display: inline;
+    background-color: rgb(136, 241, 122);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.75);
 }
 
 @media (max-width: 991px){
